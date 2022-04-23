@@ -4,20 +4,17 @@ def minskew(genome):
     skew = 0
     minskew = 0
     positions = []
-
     for ix,nt in enumerate(genome):
         if nt == 'G':
             skew += 1
         elif nt == 'C':
             skew -= 1
-
         if skew == minskew:
             positions.append(ix+1)
         elif skew < minskew:
             minskew = skew
             positions = []
             positions.append(ix+1)
-
     return positions
 
 

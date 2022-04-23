@@ -1,6 +1,6 @@
 from ast import keyword
 from sys import argv
-from chapter1 import pattern_count
+import pattern_count
 
 
 def frequent_words(text, k):

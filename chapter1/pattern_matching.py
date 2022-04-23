@@ -1,5 +1,5 @@
 from sys import argv
-from chapter1 import reverse_complement
+import reverse_complement
 
 def pattern_matching(pattern, genome):
     positions = []

@@ -1,5 +1,5 @@
 from sys import argv
-from chapter1 import reverse_complement, hamming_distance
+import reverse_complement, hamming_distance
 
 def approximate_pattern_matching(pattern, genome, d):
     positions = []

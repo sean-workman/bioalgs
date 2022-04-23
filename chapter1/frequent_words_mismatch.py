@@ -1,5 +1,5 @@
 from sys import argv
-from chapter1 import neighbors
+import neighbors
 
 
 def frequent_words_mismatch(text, k, d):

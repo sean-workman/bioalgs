@@ -1,7 +1,4 @@
-import string
 from sys import argv
-
-
 
 def reverse_complement(pattern):
     translation = pattern.maketrans('ACGT', 'TGCA')

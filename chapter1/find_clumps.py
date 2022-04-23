@@ -1,5 +1,5 @@
 from sys import argv
-from chapter1 import frequency_table
+import frequency_table
 
 def find_clumps(text, k, L, t):
     patterns = set()

@@ -3,11 +3,9 @@ from sys import argv
 def pattern_count(text, pattern):
     count = 0
     k = len(pattern)
-
     for i, nt in enumerate(text[:-k+1]):
         if text[i:i+k] == pattern:
             count += 1
-
     return count
 
 

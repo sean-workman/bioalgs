@@ -1,5 +1,5 @@
 from sys import argv
-from chapter1 import hamming_distance
+import hamming_distance
 
 def neighbors(pattern, d):
     if d == 0:
